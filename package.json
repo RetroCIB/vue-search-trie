@@ -1,0 +1,40 @@
+{
+  "name": "vue-search-trie",
+  "version": "1.0.0",
+  "description": "Advanced keyword-based search plugin",
+  "main": "dist/vue-search-trie.cjs.js",
+  "module": "dist/vue-search-trie.es2015.js",
+  "jsdelivr": "dist/vue-search-trie.js",
+  "unpkg": "dist/vue-search-trie.js",
+  "scripts": {
+    "build": "node ./build.js",
+    "dev": "npm run build && serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RetroCIB/vue-search-trie.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue.js",
+    "search",
+    "trie",
+    "dictionary"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RetroCIB/vue-search-trie/issues"
+  },
+  "homepage": "https://github.com/RetroCIB/vue-search-trie#readme",
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "serve": "^13.0.2"
+  }
+}
